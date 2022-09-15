@@ -1,0 +1,136 @@
+*:focus {
+    outline: none;
+}
+
+body{
+    background-color: black;
+}
+#sound{
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 80px;
+    margin-top: 40px;
+}
+#sound>img{
+    width: 25px;
+    cursor: pointer;
+}
+#main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 200px;
+    position: relative;   
+}
+
+#logo>img{
+    width: 200px;
+}
+
+#input{
+    margin-top: 40px;
+    border: 1px solid transparent;
+}
+
+#input>input{
+    border: 1px solid transparent;
+    display: block;
+    width: 550px;
+    background-color: #2d2f30;
+    color: #655e56;
+    padding-left: 30px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-radius: 20px;
+}
+
+#output{
+    border: 1px solid transparent;
+    background-color: #2d2f30;
+}
+
+#output>div>p{
+    color: #2d2f30;
+    margin-left: 30px;
+    cursor: pointer;
+}
+
+/* #output>p:nth-child(1){
+    color: white;
+    font-size: medium;
+}
+
+#output>p:nth-child(2){
+    color: rgba(181, 171, 171, 0.714)
+}
+
+#output>p:nth-child(3){
+    color: rgba(181, 171, 171, 0.714);
+}
+
+#output>p:first-child:hover{
+color: rgb(255, 235, 0);
+}
+ */
+
+
+#info{
+    color: aliceblue;
+    position: absolute;
+    top: 200px;
+    left: 35%;
+    text-align: center;
+}
+
+#info>h1{
+    color: #ebcf14;
+}
+#personalInfo{
+    border: 2px solid #ebcf14;
+    color: #ebcf14;
+    text-align: center;
+    border-radius: 10px;
+    margin-right: 20px;
+    padding: 40px;
+    cursor: pointer;
+}
+#personalInfo:hover{
+    color: white;
+    border: 2px solid white;
+}
+
+#anatomy{
+    border: 2px solid #ebcf14;
+    color: #ebcf14;
+    text-align: center;
+    border-radius: 10px;
+    margin-left: 20px;
+    padding: 40px;
+    cursor: pointer;
+}
+#anatomy:hover{
+color: white;
+    border: 2px solid white;
+}
+#twoDivs{
+    display: flex;
+}
+
+#goBack{
+    cursor: pointer;
+    border: 1px solid #ebcf14;
+    color: #ebcf14;
+    font-weight: bolder;
+    font-size: larger;
+    background-color: black;
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 40px;
+    border-radius: 10px;
+}
+
+#goBack:hover{
+    color: white;
+    border: 1px solid white;
+}
