@@ -1,4 +1,5 @@
-# Star-Wars
+<h1 align="center">Star-Wars</h1>
+
 We can search every Star Wars characters with their all details.
 
 In this project you can get all the details of any characters present in Star Wars
